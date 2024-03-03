@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Bebas+Neue&family=Fjalla+One&family=Noto+Sans+JP:wght@500&family=Nunito+Sans:opsz,wght@6..12,600&family=Nunito:wght@200;300;400;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/images/bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card {
+    width: 90%;
+    max-width: 470px;
+    background-color: rgba(0, 0, 0, .7);
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    box-shadow: 8px 8px 8px black;
+}
+
+.card .head {
+    font-size: 30px;
+    font-family: "Roboto";
+    text-shadow: 2px 2px 4px #000000;
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+.search {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+    box-shadow: 5px 5px 5px black;
+    background: #e6edec;
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    box-shadow: 5px 5px 5px black;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.search button:hover {
+    background-color: rgb(85, 205, 241);
+    transition: all 0.3s ease;
+}
+
+.search button img {
+    width: 20px;
+}
+
+.weather-icon {
+    width: 170px;
+    margin-top: 5px;
+}
+
+.weather h1 {
+    font-size: 70px;
+    font-weight: 500;
+    font-family: "Roboto";
+    text-shadow: 2px 2px 4px #000000;
+    color: white;
+}
+
+.weather h2 {
+    font-size: 35px;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-shadow: 2px 2px 4px #000000;
+    color: white;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5px;
+    margin-top: 20px;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img {
+    width: 80px;
+    margin-right: 10px;
+}
+
+.col p {
+    color: white;
+}
+
+.humidity,
+.wind {
+    font-size: 28px;
+    margin-top: -6px;
+    color: white;
+    font-family: "Roboto";
+}
+
+.weather {
+    display: none;
+}
+
+.error {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    color: white;
+    font-family: "Roboto";
+    display: none;
+}
+
+.cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.cont img {
+    width: 20%;
+    margin-top: -2.5rem;
+    margin-left: 1rem;
+}
+
